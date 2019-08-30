@@ -1,7 +1,7 @@
 var fs = require('fs'); 
 const { printHistogram } = require('./histogram')
 
-fs.readFile('input1.txt', function(err, buffer) {
+fs.readFile('input.txt', function(err, buffer) {
     if(err) throw err
 
     try {
